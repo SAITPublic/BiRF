@@ -124,20 +124,10 @@ By default, we save the log under ```./logs/```.
 
 If you find our code or paper useful, please consider citing our paper:
 ``` 
-@misc{shin2023binary,
-      title={Binary Radiance Fields}, 
-      author={Seungjoo Shin and Jaesik Park},
-      year={2023},
-      eprint={2306.07581},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{Shin_Binary_NeurIPS_2023,
+Title={Binary Radiance Fields},
+Author={Seungjoo Shin and Jaesik Park},
+Booktitle={Proceedings of the Conf. on Neural Information Processing Systems (NeurIPS)},
+Year={2023}
 }
 ```
-
-## Acknowledgement
-
-Our code is available under the [MIT license](https://github.com/seungjooshin/BiRF/blob/main/LICENSE) and borrwoed from [NerfAcc](https://github.com/KAIR-BAIR/nerfacc), which is also licensed under the [MIT license](https://github.com/KAIR-BAIR/nerfacc/blob/master/LICENSE).
-
-<!-- We would like to appreciate great open-source projects. Our codes are mainly borrowed from below.
-* [tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn)
-* [NerfAcc](https://github.com/KAIR-BAIR/nerfacc)  -->
