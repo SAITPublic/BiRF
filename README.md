@@ -6,7 +6,7 @@
 </p> -->
 
 
-### [Paper](https://arxiv.org/abs/2306.07581) | [Project Page](https://seungjooshin.github.io/BiRF)
+### [Paper](https://arxiv.org/abs/2306.07581) | [Project Page](https://seungjooshin.github.io/BiRF/)
 
 This repository contains the code release for the paper: 
 <!-- This is the official implementation of [Binary Radiance Fields](https://arxiv.org/abs/2306.07581): -->
@@ -17,7 +17,7 @@ This repository contains the code release for the paper:
 > *Conference on Neural Information Processing Systems (**NeurIPS**)*, *New Orleans*, 2023
 
 <div style="text-align:center">
-    <img src="https://github.com/seungjooshin/BiRF/assets/70835247/aff5f4a2-39bb-482e-80f6-d5c90ea24190"/>
+    <img src="./assets/overview.png"/>
 </div>
 
 ## Setup
@@ -27,7 +27,7 @@ We have tested on ```PyTorch==1.13.0``` with ```CUDA==11.7```.
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/seungjooshin/BiRF.git
+git clone https://github.com/SAITPublic/BiRF.git
 cd BiRF
 ```
 
@@ -123,11 +123,12 @@ By default, we save the log under ```./logs/```.
 ## Citation
 
 If you find our code or paper useful, please consider citing our paper:
-``` 
-@inproceedings{Shin_Binary_NeurIPS_2023,
-Title={Binary Radiance Fields},
-Author={Seungjoo Shin and Jaesik Park},
-Booktitle={Proceedings of the Conf. on Neural Information Processing Systems (NeurIPS)},
-Year={2023}
+```BibTeX
+@inproceedings{
+  shin2023binary,
+  title={Binary Radiance Fields},
+  author={Seungjoo Shin and Jaesik Park},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2023}
 }
 ```

@@ -8,7 +8,7 @@ read -a gpus
 
 for gpu in "${gpus[*]}"
 do
-    for scene in ficus hotdog lego materials mic ship Lifestyle Palace Robot Spaceship Steamtrain Toad Wineholder Barn Caterpillar Family Ignatius
+    for scene in chair drums ficus hotdog lego materials mic ship Bike Lifestyle Palace Robot Spaceship Steamtrain Toad Wineholder Barn Caterpillar Family Ignatius Truck
     do
         echo CUDA_VISIBLE_DEVICES=${gpu} python train.py config/small.gin --scene $scene --n_features 2 --seed 2023
         CUDA_VISIBLE_DEVICES=${gpu} python train.py config/small.gin --scene $scene --n_features 2 --seed 2023
