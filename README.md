@@ -6,7 +6,7 @@
 </p> -->
 
 
-### [Paper](https://arxiv.org/abs/2306.07581) | [Project Page](https://github.com/seungjooshin/BiRF)
+### [Paper](https://arxiv.org/abs/2306.07581) | [Project Page](https://seungjooshin.github.io/BiRF)
 
 This repository contains the code release for the paper: 
 <!-- This is the official implementation of [Binary Radiance Fields](https://arxiv.org/abs/2306.07581): -->
