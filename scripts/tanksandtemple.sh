@@ -2,10 +2,6 @@
 
 read -a gpus
 
-# chair drums ficus hotdog lego materials mic ship
-# Bike Lifestyle Palace Robot Spaceship Steamtrain Toad Wineholder
-# Barn Caterpillar Family Ignatius Truck
-
 for gpu in "${gpus[*]}"
 do
     for Barn Caterpillar Family Ignatius Truck
