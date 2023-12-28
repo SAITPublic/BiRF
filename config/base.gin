@@ -1,0 +1,12 @@
+# setup
+main.log_dir = "./logs"
+main.render_per_frame = 1
+main.max_steps = 20000
+main.postfix = "b"
+
+# encoding
+NetworkWithInputEncoding.base_resolution = 16
+NetworkWithInputEncoding.max_resolution = 1024
+NetworkWithInputEncoding.log2_hashmap_size = 19
+NetworkWithInputEncoding.interpolation = "BinaryLinear"
+NetworkWithInputEncoding.pos_deg = 4
