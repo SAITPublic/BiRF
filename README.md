@@ -42,7 +42,7 @@ conda activate birf
 
 ``` bash
 # install PyTorch==1.13.0 with CUDA==11.7
-conda install pytorch==1.13.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.7 -c pytorch
+conda install pytorch==1.13.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.7 -c pytorch -c nvidia
 
 # install custom tiny-cuda-nn
 pip install git+https://github.com/seungjooshin/tiny-cuda-nn/@bit#subdirectory=bindings/torch
